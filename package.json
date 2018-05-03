@@ -1,0 +1,35 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "jquery": "^3.3.1",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "gulp-babel": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "webpack-cli": "^2.1.2",
+    "webpack-stream": "^4.0.3"
+  },
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinthomas247/PersonalWebSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinthomas247/PersonalWebSite/issues"
+  },
+  "homepage": "https://github.com/justinthomas247/PersonalWebSite#readme"
+}
