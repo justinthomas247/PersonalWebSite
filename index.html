@@ -4,17 +4,19 @@
 <head>
     <meta name="version" content="0.1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="./css/home.css"/>
+    <script src="./release/bundle.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/home.css"/> -->
 </head>
 
-<script>
-    $(document).ready(function (){
-        console.log('here');
-    });
-</script>
-
 <body>
-
+    <script>
+        $(document).ready(function (){
+            shared.loadShared();
+            console.log("I have been summoned from the debths of jQuery");
+        });
+</script>
+ 
+            
 
 <div id="headerBar"></div>
 

@@ -37,7 +37,7 @@ gulp.task('buildWebpack', ['clean'], function(){
  * puts all the final files in release directory
  */
 gulp.task('buildBabel', ['buildWebpack'], function(){
-    return gulp.src(paths.temp+'/**/*.js')
+    return gulp.src(paths.temp+"/**/*")
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(babel())
     .pipe(sourcemaps.write('.'))
