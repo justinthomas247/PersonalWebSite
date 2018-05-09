@@ -1,29 +1,39 @@
 html{
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #headerBar {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background: red;
+
 }
 
 #navBar{
-    padding: 0;
-    height: 100%;
-    width: 100%;
     list-style: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: inline-block;
+    float: right;
+    margin-top: 28px;
+    margin-right: 80px;
 }
 
 .nav-item{
     list-style: none;
     display: inline-block;
+    margin-right: 20px
 }
 
 .nav-link{
@@ -45,3 +55,10 @@ body{
     width: 100%
 }
 
+.square{
+    height: 40px;
+    width: 40px;
+    background-color:green;
+    display: inline-block;
+    margin-left: 80px;
+}
