@@ -1,4 +1,47 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#headerBar {
+    height: 100px;
+    width: 100%;
+    background: red;
+}
+
+#navBar{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.nav-item{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-link{
+    color: white;      
+    text-decoration: none;
+    text-decoration-style: none;  
+    font-family: "segoe ui";
+    font-weight: bold;
+}
+
 #footerBar{
     border-top: 1px;
     border-color: white;
 }
+
+#mainContentContainer{
+    background: radial-gradient(blue, black);
+    height: 100%;
+    width: 100%
+}
+

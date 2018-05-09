@@ -49,10 +49,4 @@ gulp.task('buildBabel', ['buildWebpack'], function(){
  */
 gulp.task('default', ['buildBabel']);
 
-
-
-// gulp.task('default', [clean], function(){
-//     return gulp.src('webpack.config.js')
-//     .pipe(gulpWebpack({}, webpack))
-//     .pipe(gulp.dest('dist'));
-// });
+//gulp.watch('./css/**/*', ['buildBabel']);
