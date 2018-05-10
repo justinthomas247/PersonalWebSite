@@ -3,9 +3,14 @@ html{
     width: 100%;
     margin: 0;
     padding: 0;
+    background: radial-gradient(blue, black);    
 }
 
-body{
+html * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -45,13 +50,21 @@ body{
 }
 
 #footerBar{
-    border-top: 1px;
-    border-color: white;
+    background: transparent;
+    border-top: 2px solid white;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    height: 20px;
+}
+
+.footer-item{
+    color: white;
+    font-size: 12px;
 }
 
 #mainContentContainer{
-    background: radial-gradient(blue, black);
-    height: 100%;
+    height: calc(100% - 80px - 28px);
     width: 100%
 }
 
@@ -61,4 +74,5 @@ body{
     background-color:green;
     display: inline-block;
     margin-left: 80px;
+    margin-top: 20px;
 }

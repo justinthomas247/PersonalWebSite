@@ -6,6 +6,6 @@
 export function loadShared(){
     //$("#headerBar").load("/sharedHtml/headerBar.html");
     $("#navBar").load("/sharedHtml/navBar.html");    
-    $("#footerBar").load("/sharedHtml/navBar.html");
+    $("#footerBar").load("/sharedHtml/footerBar.html");
     console.log("loadShared called");
 }
