@@ -76,10 +76,16 @@ body {
     width: 100%
 }
 
-.square{
+#logoJt{
     height: 40px;
     width: 40px;
     background-color:green;
+    /* background-image: url("../assets/images/jt-favicon.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
     display: inline-block;
     margin-left: 80px;
     margin-top: 20px;
